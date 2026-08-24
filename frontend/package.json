@@ -1,7 +1,8 @@
 {
-  "name": "vite-project",
+  "name": "to-do-list-frontend",
+  "version": "1.0.0",
+  "description": "Frontend client for the To-Do List application",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

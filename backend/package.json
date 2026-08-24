@@ -1,16 +1,17 @@
 {
-  "name": "backend",
+  "name": "to-do-list-backend",
   "version": "1.0.0",
+  "description": "Backend API for the To-Do List application",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["express", "mongodb", "todo", "api"],
+  "author": "Ayush",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
