@@ -24,7 +24,7 @@ export function TaskModal({ isOpen, onClose, onSave, taskToEdit }: TaskModalProp
       setTitle(taskToEdit.title);
       setDescription(taskToEdit.description || '');
       setDate(taskToEdit.dateTime ? new Date(taskToEdit.dateTime) : null);
-      setPriority(taskToEdit.priority);
+      setPriority(taskToEdit.priority || 'medium');
       setStatus(taskToEdit.status);
     } else if (isOpen) {
       // Reset form
